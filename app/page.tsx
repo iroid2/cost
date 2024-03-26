@@ -49,57 +49,12 @@ export default function page() {
       </div>
       <div className="mt-10">
         <div className="flex justify-between items-center">
-          <h2 className="text-lg font-bold">Recent Expenses</h2>
+         
           <Button className="text-xs" variant="ghost">
             View all
           </Button>
         </div>
-        <div className="mt-4">
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Education Fees</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 25,000</p>
-            </div>
-          </div>
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Formal shirt</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 1,200</p>
-            </div>
-          </div>
-          
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Home rent</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 4,500</p>
-            </div>
-          </div>
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Home rent</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 4,500</p>
-            </div>
-          </div>
-          
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Home rent</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 4,500</p>
-            </div>
-          </div>
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Home rent</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 4,500</p>
-            </div>
-          </div>
-        </div>
+        
         <Choose/>
       </div>
       <div className="fixed bottom-0 inset-x-0 bg-gray-100 py-2">
