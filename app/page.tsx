@@ -1,9 +1,10 @@
 
+import Choose from "@/components/Choose"
 import { Button } from "@/components/ui/button"
 
 export default function page() {
   return (
-   <div className=" w-screen">
+   <div className=" w-screen py-10">
     <div className="bg-white mx-auto  p-4 max-w-4xl">
       <div className="flex justify-between items-center">
         <div>
@@ -68,6 +69,7 @@ export default function page() {
               <p className="text-red-500">- ₹ 1,200</p>
             </div>
           </div>
+          
           <div className="flex justify-between items-center py-2 border-b">
             <p>Home rent</p>
             <div className="flex items-center">
@@ -82,27 +84,7 @@ export default function page() {
               <p className="text-red-500">- ₹ 4,500</p>
             </div>
           </div>
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Home rent</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 4,500</p>
-            </div>
-          </div>
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Home rent</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 4,500</p>
-            </div>
-          </div>
-          <div className="flex justify-between items-center py-2 border-b">
-            <p>Home rent</p>
-            <div className="flex items-center">
-              <IndianRupeeIcon className="text-red-500" />
-              <p className="text-red-500">- ₹ 4,500</p>
-            </div>
-          </div>
+          
           <div className="flex justify-between items-center py-2 border-b">
             <p>Home rent</p>
             <div className="flex items-center">
@@ -118,6 +100,7 @@ export default function page() {
             </div>
           </div>
         </div>
+        <Choose/>
       </div>
       <div className="fixed bottom-0 inset-x-0 bg-gray-100 py-2">
         <div className="flex justify-around items-center">
